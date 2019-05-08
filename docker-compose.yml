@@ -35,7 +35,7 @@ services:
 
   node-express:
     # build: ../EX_MVC/
-    image: best_api:test
+    image: chaiwatsumrit/sample-api-server
     container_name: best_api
     command: npm run startAPI
     ports:
